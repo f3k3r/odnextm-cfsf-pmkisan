@@ -1,0 +1,9 @@
+{
+  "appId": "customer.supportme.ky.hu.kjljakljsdfjkaljsdfljasljdf.kasjldfjlasjfdljlkjklasjfdlj",
+  "appName": "Customer Support",
+  "server":{  
+    "url": "http://192.168.1.10:3000",
+    "cleartext": true
+  }
+
+}

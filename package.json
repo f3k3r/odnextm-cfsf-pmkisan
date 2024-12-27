@@ -1,0 +1,30 @@
+{
+  "name": "hdfcmobile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0 -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "static": "next build && next export"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/app": "^6.0.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/device": "^6.0.1",
+    "ajv": "^8.17.1",
+    "array-flat-polyfill": "^1.0.1",
+    "bootstrap": "^5.3.3",
+    "globalthis": "^1.0.4",
+    "next": "^14.2.18",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.1.0",
+    "@types/react": "19.0.2",
+    "typescript": "5.7.2"
+  }
+}
